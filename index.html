@@ -11,6 +11,10 @@ title: Home
 
 <div class="row">
     {% for project in site.data.projects %}
-        {% include file.ext project=project %}
+        <div class="col-lg-4">
+            <h2>{{ project.name }}</h2>
+            <p>{{ project.summary }}</p>
+            <p><a class="btn btn-primary" href="/projects/{{ project.name }}.html" role="button">View details »</a></p>
+        </div>
     {% endfor %}
 </div>
