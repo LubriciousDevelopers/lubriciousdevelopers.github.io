@@ -1,5 +1,5 @@
 title: "Lubricous Developers"
 
 collections:
-    projects:
+    - projects:
         output: true
