@@ -8,6 +8,10 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 .col-lg-6 > p > img {
     width:300px;
 }
