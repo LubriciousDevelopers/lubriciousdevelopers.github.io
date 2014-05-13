@@ -2,18 +2,22 @@
     github:      jum4
     id:          3645386
     description: Awesome developer
+    projects:    ['sublime-php-namespace', 'sublime-sql-exec']
 
 -
     github:      gl3n
     id:          965689
     description: Wonderful developer
+    projects:    ['sublime-php-namespace', 'sublime-sql-exec']
 
 -
     github:      Heer0
     id:          871685
     description: Formidable developer
+    projects:    ['sublime-php-namespace']
 
 -
     github:      diogenesien
     id:          7568798
     description: Fantastic developer
+    projects:    []

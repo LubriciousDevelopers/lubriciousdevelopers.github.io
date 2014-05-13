@@ -10,6 +10,9 @@ title: About
 <div class="list-group">
     {% for member in site.data.members %}
         <a href="https://github.com/{{ member.github }}" class="list-group-item">
+            {% for project in member.projects %}
+                <span class="badge">{{ project }}</span>
+            {% endfor %}
             <img class="avatar pull-left" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60">
             <h4 class="list-group-item-heading">{{ member.github }}</h4>
             <p class="list-group-item-text">{{ member.description }}</p>
