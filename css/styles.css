@@ -54,6 +54,9 @@ div.header .nav-pills > li.active > a, div.header .nav-pills > li.active > a:hov
     background-color: #F3AD14;
 }
 
+div.header h1 a:hover {
+    text-decoration: none;
+}
 div.header a {
     color: #FFF;
 }
