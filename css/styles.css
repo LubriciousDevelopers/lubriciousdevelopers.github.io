@@ -6,6 +6,10 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
+nav {
+    display: block;
+}
+
 .affix {
     position: fixed;
     top: 20px;
