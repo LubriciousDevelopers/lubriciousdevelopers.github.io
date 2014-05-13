@@ -28,9 +28,10 @@ img.link {
 }
 
 /* Header */
+
 div.header {
-    background-color: #D95C5C;
-    color: #FFF;
+    background-color: #31A6A8;
+    color: #F3F1BC;
 }
 
 div.header .nav-pills {
@@ -38,10 +39,10 @@ div.header .nav-pills {
 }
 
 div.header .nav-pills > li.active > a, div.header .nav-pills > li.active > a:hover, div.header .nav-pills > li.active > a:focus {
-    color: #D95C5C;
-    background-color: #FFF;
+    color: #F3F1BC;
+    background-color: #F3AD14;
 }
 div.header a, div.header .nav > li > a:hover {
-    color: #FFF;
-    background-color: none;
+    color: #F3F1BC;
+    background-color: #1B808C;
 }
