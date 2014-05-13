@@ -24,41 +24,55 @@ github: gl3n/sublime-php-namespace
 
     <div class="col-md-10">
         <h2 id="features">Features</h2>
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Copy current namespace <code>alt+c</code></h3>
-                        </div>
-                        <div class="panel-body">
-                            <p>It builds the current file namespace and copies it into the clipboard.</p>
-                            <div class="alert alert-info"><strong>Note</strong> It can be used via "Goto File Overlay.</div>
-                        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Copy current namespace <code>alt+c</code></h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>It builds the current file namespace and copies it into the clipboard.</p>
+                        <div class="alert alert-info"><strong>Note</strong> It can be used via "Goto File" overlay.</div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <strong>php_namespace_insert_namespace</strong>
-                    <code>alt+i</code>
-                    <p>It builds and inserts (or replaces) the <code>namespace <...>;</code> statement of the current file.</p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Insert namespace <code>alt+i</code></h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>It builds and inserts (or replaces) the <code>namespace <...>;</code> statement of the current file.</p>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <strong>php_namespace_insert_use</strong>
-                    <code>alt+u</code>
-                    <p>It builds the <code>use <...>;</code> statement of the current file namespace and inserts it into the last active file.</p>
-                    <div class="alert alert-success">Note: It can be used via <code>Goto File Overlay</code></div>
-                </div>
-                <div class="col-lg-6">
-                    <strong>php_namespace_clean</strong>
-                    <code>alt+r</code>
-                    <p>This command scan the current file namespaces and check remove those that are no longer used.</p>
-                </div>
-                <div class="col-lg-6">
-                    <strong>php_namespace_clean</strong>
-                    <code>alt+u</code>
-                    <p>This awesome command extends or implements the selected class or interface, all abstract method that does not exist are automaticly implemented and the <code>use <...>;</code> statement is inserted.</p>
-                    <div class="alert alert-success">Note: It can be used via <code>Goto File Overlay</code>.</div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Insert "use" statement <code>alt+u</code></h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>It builds the <code>use <...>;</code> statement of the current file namespace and inserts it into the last active file.</p>
+                        <div class="alert alert-info"><strong>Note</strong> It can be used via "Goto File" overlay.</div>
+                    </div>
                 </div>
             </div>
+            <div class="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Remove useless "use" statements <code>alt+r</code></h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>This command scan the current file namespaces and check remove those that are no longer used.</p>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Implement interface <code>alt+r</code></h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>This awesome command extends or implements the selected class or interface, all abstract methods that does not exist are automaticaly implemented and the "use" statement is inserted.</p>
+                        <div class="alert alert-info"><strong>Note</strong> It can be used via "Goto File" overlay.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <h2 id="installation">Installation</h2>
 
