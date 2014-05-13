@@ -13,8 +13,9 @@ title: About us
             </a>
             <h2>
                 {{ member.account }}
-                <img class="user pull-left" height="30" size="30" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60" width="30">
+                <img class="avatar pull-left" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60">
             </h2>
+            <p>{{ member.description }}</p>
             <hr/>
         </div>
     {% endfor %}

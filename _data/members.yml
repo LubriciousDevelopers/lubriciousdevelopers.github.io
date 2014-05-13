@@ -1,17 +1,20 @@
 -
-    account: Jum4
-    name:    Julien Martin
-    github:  jum4
-    id:      3645386
+    account:     Jum4
+    name:        Julien Martin
+    github:      jum4
+    id:          3645386
+    description: Awesome developer
 
 -
     account: Gl3n
     name:    Glen Jaguin
     github:  gl3n
     id:      965689
+    description: Wonderful developer
 
 -
     account: Heer0
     name:    Yoann Wackers
     github:  Heer0
     id:      871685
+    description: Formidable developer

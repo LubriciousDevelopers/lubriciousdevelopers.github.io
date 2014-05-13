@@ -6,8 +6,11 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
-h2>img {
+img.avatar {
     margin-right: 10px;
+    border-radius: 4px;
+    width:30px;
+    height:30px;
 }
 
 img.link {
