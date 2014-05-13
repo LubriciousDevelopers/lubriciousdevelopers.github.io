@@ -33,9 +33,15 @@ img.link {
     height:30px;
 }
 
-.jumbotron .btn, .jumbotron .btn:hover {
+.btn-default, .btn-default:hover {
     background-color: #F3AD14;
     border-color: #D19511;
+    color: #FFF;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: #1B808C;
+    border-color: #1B808C;
     color: #FFF;
 }
 
