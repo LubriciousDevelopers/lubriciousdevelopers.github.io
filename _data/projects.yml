@@ -8,4 +8,4 @@
     name:    SQLExec
     summary: A Plugin for running SQL commands in Sublime Text
     github:  jum4/sublime-sqlexec
-    slug:    sublime-sqlexec
+    slug:    sublime-sql-exec
