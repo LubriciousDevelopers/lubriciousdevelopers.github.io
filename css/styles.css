@@ -6,7 +6,7 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
-h2.img {
+h2>img {
     margin-right: 10px;
 }
 
