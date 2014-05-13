@@ -43,6 +43,10 @@ div.header .nav-pills > li.active > a, div.header .nav-pills > li.active > a:hov
     background-color: #F3AD14;
 }
 
+div.header a {
+    color: #FFF;
+}
+
 div.header .nav a:hover {
     color: #FFF;
     background-color: #1B808C;
