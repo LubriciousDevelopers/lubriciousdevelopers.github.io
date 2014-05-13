@@ -27,3 +27,11 @@ div.header {
     background-color: #D95C5C;
     color: #FFF;
 }
+
+div.header .nav-justified > .active > a, div.header .nav-justified > .active > a:hover, div.header .nav-justified > .active > a:focus {
+    box-shadow: none;
+}
+
+div.header .nav-justified > li > a {
+    background-image: none;
+}
