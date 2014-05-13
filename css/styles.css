@@ -1,3 +1,7 @@
-.title {
+.jumbotron h1 {
+    font-size: 80px;
+}
+
+h1.title, h2.title {
     font-family: 'Satisfy', cursive;
 }
