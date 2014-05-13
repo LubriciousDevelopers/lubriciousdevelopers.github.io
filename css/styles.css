@@ -8,6 +8,10 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
+.active {
+    background-color: #C0C0C0;
+}
+
 .container {
     width: 900px;
 }
