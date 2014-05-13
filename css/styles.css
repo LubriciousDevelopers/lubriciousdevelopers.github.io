@@ -12,7 +12,7 @@ h1, h2 {
     background-color: #C0C0C0;
 }
 
-.col-lg-6 > img {
+.col-lg-6 > p > img {
     width:200px;
 
 }
