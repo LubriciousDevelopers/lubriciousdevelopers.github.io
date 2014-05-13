@@ -1,14 +1,17 @@
 -
-    account:    jum4
+    account: Jum4
     name:    Julien Martin
-    github:  3645386
+    github:  jum4
+    id:      3645386
 
 -
-    account:    gl3n
+    account: Gl3n
     name:    Glen Jaguin
-    github:  965689
+    github:  gl3n
+    id:      965689
 
 -
-    account:    Heer0
+    account: Heer0
     name:    Yoann Wackers
-    github:  871685
+    github:  Heer0
+    id:      871685
