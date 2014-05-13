@@ -6,16 +6,11 @@ title: Projects
     <h1>Lubricious Projects</h1>
 </div>
 
-<div class="row">
+<div class="list-group">
     {% for project in site.data.projects %}
-        <div class="col-lg-12">
-            <h2>{{ project.name }}</h2>
-            <p>{{ project.summary }}</p>
-            <p>
-            <a class="btn btn-primary" href="/projects/{{ project.slug }}" role="button">View details »</a>
-            <a class="btn btn-default" href="https://github.com/{{ project.github }}" role="button">See on Github »</a>
-            </p>
-            <hr/>
-        </div>
+        <a href="/projects/{{ project.slug }}" class="list-group-item">
+            <h4 class="list-group-item-heading">{{ project.name }}</h4>
+            <p class="list-group-item-text">{{ project.summary }}</p>
+        </a>
     {% endfor %}
 </div>

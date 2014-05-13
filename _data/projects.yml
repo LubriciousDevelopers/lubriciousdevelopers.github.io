@@ -1,11 +1,11 @@
 -
-    name:    PhpNamespace
+    name:    Sublime PhpNamespace
     summary: A "3 in 1" package to use PHP Namespaces with SublimeText 2 and 3
     github:  gl3n/sublime-php-namespace
     slug:    sublime-php-namespace
 
 -
-    name:    SQLExec
-    summary: A Plugin for running SQL commands in Sublime Text
+    name:    Sublime SQLExec
+    summary: A package to run SQL commands in Sublime Text
     github:  jum4/sublime-sqlexec
     slug:    sublime-sql-exec
