@@ -21,3 +21,10 @@ img.link {
     width:30px;
     height:30px;
 }
+
+/* Header */
+
+div.header {
+    background-color: #D95C5C;
+    color: #FFF;
+}
