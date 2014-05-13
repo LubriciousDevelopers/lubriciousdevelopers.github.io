@@ -1,3 +1,5 @@
+/* COLORS : https://kuler.adobe.com/Honey-in-the-Sky-color-theme-3818674/ */
+
 .jumbotron h1 {
     font-size: 80px;
 }
@@ -25,6 +27,11 @@ img.avatar {
 img.link {
     width:30px;
     height:30px;
+}
+
+.jumbotron .btn, .jumbotron .btn:hover {
+    background-color: #F3AD14;
+    border-color: #D19511;
 }
 
 /* Header */
