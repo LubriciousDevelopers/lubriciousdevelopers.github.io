@@ -33,6 +33,10 @@ img.link {
     height:30px;
 }
 
+.btn-default {
+    background-color: #F3AD14;
+}
+
 .jumbotron .btn, .jumbotron .btn:hover {
     background-color: #F3AD14;
     border-color: #D19511;
