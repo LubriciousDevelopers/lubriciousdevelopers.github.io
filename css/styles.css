@@ -8,10 +8,6 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
-.active {
-    background-color: #C0C0C0;
-}
-
 .col-lg-6 > p > img {
     width:300px;
 }
