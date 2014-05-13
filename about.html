@@ -8,13 +8,13 @@ title: About us
 <div class="row">
     {% for member in site.data.members %}
         <div class="col-lg-12">
+            <a href="https://github.com/{{ member.github }}" class="pull-right">
+                <img class="link" src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png"/>
+            </a>
             <h2>
                 {{ member.account }}
                 <img class="user pull-left" height="30" size="30" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60" width="30">
             </h2>
-            <a href="https://github.com/{{ member.github }}" class="pull-right">
-                <img class="link" src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png"/>
-            </a>
             <hr/>
         </div>
     {% endfor %}
