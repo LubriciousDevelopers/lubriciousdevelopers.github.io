@@ -36,6 +36,7 @@ img.link {
 .jumbotron .btn, .jumbotron .btn:hover {
     background-color: #F3AD14;
     border-color: #D19511;
+    color: #FFF;
 }
 
 /* Header */
