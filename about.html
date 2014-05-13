@@ -7,17 +7,12 @@ title: About
     <h1>The Lubricious Team</h1>
 </div>
 
-<div class="row">
+<div class="list-group">
     {% for member in site.data.members %}
-        <div class="col-lg-12">
-            <a href="https://github.com/{{ member.github }}" class="pull-right">
-                <img class="link" src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png"/>
-            </a>
-            <h2>
-                {{ member.account }} <small>{{ member.description }}</small>
-                <img class="avatar pull-left" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60">
-            </h2>
-            <hr/>
-        </div>
+        <a href="https://github.com/{{ member.github }}" class="list-group-item">
+            <img class="avatar pull-left" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60">
+            <h4 class="list-group-item-heading">{{ member.account }}</h4>
+            <p class="list-group-item-text">{{ member.description }}</p>
+        </a>
     {% endfor %}
 </div>
