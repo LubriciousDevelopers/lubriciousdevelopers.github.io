@@ -11,8 +11,10 @@ title: Projects
         <div class="col-lg-12">
             <h2>{{ project.name }}</h2>
             <p>{{ project.summary }}</p>
-            <p><a class="btn btn-primary" href="/projects/{{ project.slug }}" role="button">View details »</a></p>
-            <p><a class="btn btn-success" href="https://github.com/{{ project.github }}" role="button">See on Github »</a></p>
+            <p>
+            <a class="btn btn-primary" href="/projects/{{ project.slug }}" role="button">View details »</a>
+            <a class="btn btn-success" href="https://github.com/{{ project.github }}" role="button">See on Github »</a>
+            </p>
             <hr/>
         </div>
     {% endfor %}
