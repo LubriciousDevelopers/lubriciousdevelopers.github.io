@@ -7,17 +7,85 @@ github: jum4/sublime-sqlexec
 
 <div class="col-md-9" role="main">
     <h1 id="features">Features</h1>
-    <div class="row">
-        <div class="col-lg-4">
-            <h2>Rapid switching between connections</h2>
-            <p>'ctrl+alt+e'</p>
-            <p><img src="images/switch.png"/></p>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h3>Rapid switching between connections</h3>
+                <p>'ctrl+alt+e'</p>
+                <p><img src="images/switch.png"/></p>
+            </div>
         </div>
-    </div>
 
     <h1 id="installation">Installation</h1>
 
+        <div class="row">
+            <div class="col-lg-12">
+
+                <h3>With Package Control</h3>
+                Look for the package named SQLExec.
+
+                <h3>With Git</h3>
+
+                Download the Zip file, extract it to your Sublime Text packages directory, and rename it to SQLExec
+
+                <h3>Requirements</h3>
+
+                Some directories have to be defined in the PATH environment variable, according to the SGBD that you want to use: "mysql" executable for MySQL, "pgsql" executable for PostgreSQL, "vsql" executable for Vertica, or "sqlplus" executable for Oracle ( Not tested )
+
+                You can also specify full path for these command in settings :
+                ( Preferences > Package Settings > SQLExec > Settings - User )
+
+                <code>
+                    "sql_exec.commands": {
+                        "mysql" : "/usr/bin/mysql"
+                    },
+                </code>
+
+            </div>
+        </div>
+
     <h1 id="configuration">Configuration</h1>
+
+        <div class="row">
+            <div class="col-lg-12">
+
+            <h3>Sample configuration file</h3>
+
+            <code>
+                {
+                    "connections": {
+                        "Connection 1": {
+                            "type"    : "mysql",
+                            "host"    : "127.0.0.1",
+                            "port"    : 3306,
+                            "username": "user",
+                            "password": "password",
+                            "database": "dbname"
+                        },
+                        "Connection 2": {
+                            "type"    : "pgsql",
+                            "host"    : "127.0.0.1",
+                            "port"    :  5432,
+                            "username": "anotheruser",
+                            "password": "password",
+                            "database": "dbname"
+                        },
+                        "Connection 2": {
+                            "type"    : "oracle",
+                            "host"    : "127.0.0.1",
+                            "port"    :  1522,
+                            "username": "anotheruser",
+                            "password": "password",
+                            "database": "dbname",
+                            "service" : "servicename"
+                        }
+                    }
+                }
+            </code>
+
+        </div>
+    </div>
+
 </div>
 
 <div class="col-md-3">
