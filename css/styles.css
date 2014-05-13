@@ -6,6 +6,10 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
+.affix-top {
+    top:1px;
+}
+
 img.avatar {
     margin-right: 10px;
     border-radius: 4px;
