@@ -1,7 +1,7 @@
 <div class="masthead">
     <ul class="nav nav-justified">
-        <li class="active"><a href="/">Home</a></li>
-        <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/about.html">About</a></li>
+        <li{% if page.title == 'Home' %} class="active"{% endif %}><a href="/">Home</a></li>
+        <li{% if page.title == 'Projects' %} class="active"{% endif %}><a href="/projects.html">Projects</a></li>
+        <li{% if page.title == 'About' %} class="active"{% endif %}><a href="/about.html">About</a></li>
     </ul>
 </div>
