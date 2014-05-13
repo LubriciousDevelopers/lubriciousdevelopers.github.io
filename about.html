@@ -12,9 +12,12 @@ title: About us
                 {{ member.account }}
                 <img class="user pull-left" height="30" size="30" src="https://avatars0.githubusercontent.com/u/{{ member.id }}?s=60" width="30">
             </h2>
-            <a href="https://github.com/{{ member.github }}">
-                <img class="link" src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png"/>
-            </a>
+            <div class="links pull-right">
+                <a href="https://github.com/{{ member.github }}">
+                    <img class="link" src="https://github.global.ssl.fastly.net/images/modules/logos_page/GitHub-Mark.png"/>
+                </a>
+            </div>
+            <hr/>
         </div>
     {% endfor %}
 </div>
