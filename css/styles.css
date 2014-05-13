@@ -29,6 +29,10 @@ div.header {
     color: #FFF;
 }
 
+div.header .container {
+    width: 700px;
+}
+
 div.header .nav-pills {
     margin-top: 15px;
 }
@@ -37,6 +41,7 @@ div.header .nav-pills > li.active > a, div.header .nav-pills > li.active > a:hov
     color: #D95C5C;
     background-color: #FFF;
 }
-div.header a {
+div.header a, div.header a:hover; {
     color: #FFF;
+    background-color: none;
 }
