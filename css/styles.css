@@ -6,6 +6,11 @@ h1, h2 {
     font-family: 'Satisfy', cursive;
 }
 
+.affix {
+    position: fixed;
+    top: 20px;
+}
+
 img.avatar {
     margin-right: 10px;
     border-radius: 4px;
