@@ -5,3 +5,8 @@
 h1, h2 {
     font-family: 'Satisfy', cursive;
 }
+
+img.link {
+    width:20px;
+    height:20px;
+}
