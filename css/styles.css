@@ -12,7 +12,7 @@ h1, h2 {
     margin: 0;
 }
 
-.col-lg-6 > p > img {
+.panel-body > p > img {
     width:300px;
 }
 
