@@ -6,15 +6,13 @@ title: Home
 <div class="jumbotron">
     <h1>{{ site.title }}</h1>
     <p class="lead">We do Sublime Text plugins and more ...</p>
-    <p><a class="btn btn-lg btn-default" href="/projects.html" role="button">See all our Projects</a></p>
+    <p><a class="btn btn-lg btn-default" href="/projects.html" role="button">See our Projects</a></p>
 </div>
 
 <div class="row">
-    {% for project in site.data.projects %}
-        <div class="col-lg-6">
-            <h2>{{ project.name }}</h2>
-            <p>{{ project.summary }}</p>
-            <p><a class="btn btn-primary" href="/projects/{{ project.slug }}" role="button">View details »</a></p>
-        </div>
+    {% for post in site.posts %}
+        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+        {{ post.excerpt }}
+        <hr/>
     {% endfor %}
 </div>
