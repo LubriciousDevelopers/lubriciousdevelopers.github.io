@@ -1,6 +1,7 @@
 ---
 layout: post
 title: UPDATE: SQL Exec
+category: update
 ---
 
 
